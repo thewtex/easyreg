@@ -19,7 +19,9 @@ URL = 'https://github.com/uncbiag/easyreg'
 EMAIL = 'zyshen@cs.unc.edu'
 AUTHOR = 'Zhengyang Shen'
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = get_git_version()
+# VERSION = get_git_version()
+# Invalid package version
+VERSION='0.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
